@@ -12,12 +12,12 @@ export function HeroSection() {
       <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 md:py-32 lg:py-40">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-8 flex justify-center">
-            <div className="relative h-40 w-40 overflow-hidden rounded-2xl shadow-2xl shadow-primary/20 transition-transform hover:scale-105 sm:h-48 sm:w-48">
+            <div className="relative h-48 w-48 transition-transform hover:scale-105 sm:h-64 sm:w-64">
               <Image
-                src="/Untitled design (3).png"
+                src="/Untitled design (4).png"
                 alt="Neural Chromium Logo"
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>

@@ -10,12 +10,12 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <Link href="/" className="flex items-center gap-2" aria-label="Neural Chromium home">
-            <div className="relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-md">
+            <div className="relative flex h-8 w-8 items-center justify-center">
               <Image
-                src="/Untitled design (3).png"
+                src="/Untitled design (4).png"
                 alt="Neural Chromium Logo"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <span className="font-mono text-sm text-muted-foreground">

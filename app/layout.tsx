@@ -35,6 +35,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Senti-001", url: "https://github.com/senti-001" }],
   creator: "Senti-001",
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: "/Untitled design (4).png",
+    shortcut: "/Untitled design (4).png",
+    apple: "/Untitled design (4).png",
+  },
   alternates: {
     canonical: "/",
   },
@@ -46,12 +51,21 @@ export const metadata: Metadata = {
     title: "Neural Chromium — The Agentic Web Runtime",
     description:
       "An agentic web runtime built on Chromium, NATS JetStream, and Python. Designed for programmatic control by AI agents.",
+    images: [
+      {
+        url: "/Untitled design (4).png",
+        width: 1200,
+        height: 1200,
+        alt: "Neural Chromium Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Neural Chromium — The Agentic Web Runtime",
     description:
       "An agentic web runtime built on Chromium, NATS JetStream, and Python. Designed for programmatic control by AI agents.",
+    images: ["/Untitled design (4).png"],
   },
   robots: {
     index: true,
