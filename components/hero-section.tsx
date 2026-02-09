@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Github } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -10,6 +11,18 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,hsl(var(--primary)/0.08),transparent_60%)]" />
       <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 md:py-32 lg:py-40">
         <div className="mx-auto max-w-3xl text-center">
+          <div className="mb-8 flex justify-center">
+            <div className="relative h-40 w-40 overflow-hidden rounded-2xl shadow-2xl shadow-primary/20 transition-transform hover:scale-105 sm:h-48 sm:w-48">
+              <Image
+                src="/Untitled design (2).png"
+                alt="Neural Chromium Logo"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-xs text-primary sm:mb-6 sm:px-4 sm:py-1.5 sm:text-sm">
             <span className="relative flex h-2 w-2" aria-hidden="true">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
