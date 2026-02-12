@@ -1,8 +1,8 @@
 {
     "disk": {
         "used": "45GB",
-        "total": "100GB",
-        "percentage": 45
+        "total": "500GB",
+        "percentage": 9
     },
     "cpu": {
         "usage": 12,
@@ -13,5 +13,5 @@
         "uptime": "14 days, 3 hours",
         "version": "0.12.4-alpha"
     },
-    "last_updated": "2026-02-12T04:00:00Z"
+    "last_updated": "2026-02-12T04:34:00Z"
 }

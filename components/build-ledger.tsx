@@ -25,16 +25,7 @@ export function BuildLedger() {
             try {
                 // Fetch commits that modified README.md
                 const response = await fetch(
-                    "https://api.github.com/repos/senti-001/neural-chromium/commits?path=README.md&per_page=5",
-                    {
-                        headers: {
-                            // Note: In a production app, this should be an environment variable
-                            // and handled server-side to avoid leaking the token.
-                            // For this project requirement, we'll fetch client-side.
-                            Authorization: "token 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8f4eda611abcb2a31416b2836603238a630f8c8ce2680c1c73ee0e9",
-                            Accept: "application/vnd.github.v3+json",
-                        },
-                    }
+                    "https://api.github.com/repos/senti-001/neural-chromium/commits?path=README.md&per_page=5"
                 )
 
                 if (!response.ok) {
