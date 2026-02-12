@@ -1,0 +1,17 @@
+{
+    "disk": {
+        "used": "45GB",
+        "total": "100GB",
+        "percentage": 45
+    },
+    "cpu": {
+        "usage": 12,
+        "model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz"
+    },
+    "runtime": {
+        "status": "available",
+        "uptime": "14 days, 3 hours",
+        "version": "0.12.4-alpha"
+    },
+    "last_updated": "2026-02-12T04:00:00Z"
+}
