@@ -1,17 +1,23 @@
 {
     "disk": {
-        "used": "45GB",
-        "total": "500GB",
-        "percentage": 9
+        "used": "487GB",
+        "total": "931GB",
+        "percentage": 52
     },
     "cpu": {
-        "usage": 12,
-        "model": "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz"
+        "usage": 23,
+        "model": "AMD Ryzen 9 7950X"
+    },
+    "gpu": {
+        "vram_used": "28GB",
+        "vram_total": "40GB",
+        "vram_percentage": 70,
+        "model": "NVIDIA RTX 5090"
     },
     "runtime": {
-        "status": "available",
-        "uptime": "14 days, 3 hours",
-        "version": "0.12.4-alpha"
+        "status": "Operational",
+        "uptime": "12d 4h 23m",
+        "version": "v0.4.2-alpha"
     },
-    "last_updated": "2026-02-12T04:34:00Z"
+    "last_updated": "2026-02-13T04:59:00Z"
 }

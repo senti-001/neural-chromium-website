@@ -13,7 +13,7 @@ export function InvestorConcierge() {
 
                 <h4 className="text-lg font-bold tracking-tight text-foreground mb-1">Investor Relations</h4>
                 <p className="text-xs text-muted-foreground mb-4 max-w-[200px]">
-                    Launch our AI-driven voice portal for investment inquiries.
+                    Privacy-Aware Intelligence Router for institutional inquiries and strategic partnerships.
                 </p>
 
                 <a

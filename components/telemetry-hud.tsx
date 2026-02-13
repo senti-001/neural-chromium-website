@@ -14,6 +14,12 @@ interface TelemetryData {
         usage: number
         model: string
     }
+    gpu?: {
+        vram_used: string
+        vram_total: string
+        vram_percentage: number
+        model: string
+    }
     runtime: {
         status: string
         uptime: string
@@ -101,6 +107,21 @@ export function TelemetryHud() {
                     <Progress value={data.disk.percentage} className="h-1.5" />
                     <p className="font-mono text-[10px] text-muted-foreground">{data.disk.percentage}% capacity utilized</p>
                 </div>
+
+                {/* GPU/VRAM Usage */}
+                {data.gpu && (
+                    <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                                <Cpu className="h-4 w-4 text-muted-foreground" />
+                                <span className="text-sm font-medium">VRAM</span>
+                            </div>
+                            <span className="font-mono text-sm font-bold">{data.gpu.vram_used} / {data.gpu.vram_total}</span>
+                        </div>
+                        <Progress value={data.gpu.vram_percentage} className="h-1.5" />
+                        <p className="font-mono text-[10px] text-muted-foreground">{data.gpu.model}</p>
+                    </div>
+                )}
             </div>
 
             <div className="mt-8 grid gap-4 border-t border-border/50 pt-6 font-mono text-xs sm:grid-cols-2">
